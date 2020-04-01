@@ -26,7 +26,7 @@ SECRET_KEY = '&8!y6ksrmbg##at_ha1)np-v3n&#++)xej5zd7032o38-=no6!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arcticapi413.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'api',
     'corsheaders',
+    'client',
 ]
 
 MIDDLEWARE = [
